@@ -1,6 +1,3 @@
-<script>
-function call(){
-  window.location.href = 'https://raw.githubusercontent.com/prashanths1992/System-Security/master/yhhbh.png';
-}
-
-</script>
+function msg(){  
+ alert("Hello Javatpoint");  
+}  
