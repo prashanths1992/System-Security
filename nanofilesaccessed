@@ -99,13 +99,12 @@ stat64("/usr/share/nano/texinfo.nanorc", {st_mode=S_IFREG|0644, st_size=452, ...
 open("/usr/share/nano/texinfo.nanorc", O_RDONLY|O_LARGEFILE) = 4
 stat64("/usr/share/nano/go.nanorc", {st_mode=S_IFREG|0644, st_size=1407, ...}) = 0
 open("/usr/share/nano/go.nanorc", O_RDONLY|O_LARGEFILE) = 4
-stat64("/home/sekar/.nanorc", 0xbfe3e1ec) = -1 ENOENT (No such file or directory)
+stat64("/home/sekar/.nanorc", 0xbfc9388c) = -1 ENOENT (No such file or directory)
 open("/home/sekar/.nanorc", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
-stat64("/home/sekar/.nano", 0xbfe3e1ec) = -1 ENOENT (No such file or directory)
-mkdir("/home/sekar/.nano", 0777)        = 0
-stat64("/home/sekar/.nano_history", 0xbfe3e1dc) = -1 ENOENT (No such file or directory)
+stat64("/home/sekar/.nano", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat64("/home/sekar/.nano_history", 0xbfc9387c) = -1 ENOENT (No such file or directory)
 open("/home/sekar/.nano/search_history", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
-stat64("/home/sekar/.terminfo", 0x84c5138) = -1 ENOENT (No such file or directory)
+stat64("/home/sekar/.terminfo", 0x8413138) = -1 ENOENT (No such file or directory)
 stat64("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 stat64("/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 stat64("/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
