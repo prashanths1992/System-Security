@@ -1,0 +1,240 @@
+execve("/usr/bin/soffice", ["soffice", "--writer"], [/* 63 vars */]) = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+stat64("/home/sekar", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/bin/soffice", O_RDONLY)      = 3
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4188, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+lstat64("/usr/bin/soffice", {st_mode=S_IFLNK|0777, st_size=34, ...}) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4189, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+chdir("/usr/bin")                       = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4190, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4191, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+lstat64("../lib/libreoffice/program/soffice", {st_mode=S_IFREG|0755, st_size=6012, ...}) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4194, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+chdir("/usr/lib/libreoffice/program")   = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4195, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+chdir("/home/sekar")                    = 0
+stat64("/usr/lib/libreoffice/program/ooenv", 0xbf99f51c) = -1 ENOENT (No such file or directory)
+stat64("/home/sekar/bin/grep", 0xbf99f67c) = -1 ENOENT (No such file or directory)
+stat64("/home/sekar/.local/bin/grep", 0xbf99f67c) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/sbin/grep", 0xbf99f67c) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/bin/grep", 0xbf99f67c) = -1 ENOENT (No such file or directory)
+stat64("/usr/sbin/grep", 0xbf99f67c)    = -1 ENOENT (No such file or directory)
+stat64("/usr/bin/grep", 0xbf99f67c)     = -1 ENOENT (No such file or directory)
+stat64("/sbin/grep", 0xbf99f67c)        = -1 ENOENT (No such file or directory)
+stat64("/bin/grep", {st_mode=S_IFREG|0755, st_size=230928, ...}) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4196, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4197, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4198, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+execve("/usr/lib/libreoffice/program/oosplash", ["/usr/lib/libreoffice/program/oos"..., "--writer"], [/* 66 vars */]) = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/usr/lib/libreoffice/program/oos"..., 4096) = 37
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/tls/i686/sse2/cmov/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/tls/i686/sse2/cmov", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/tls/i686/sse2/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/tls/i686/sse2", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/tls/i686/cmov/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/tls/i686/cmov", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/tls/i686/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/tls/i686", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/tls/sse2/cmov/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/tls/sse2/cmov", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/tls/sse2/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/tls/sse2", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/tls/cmov/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/tls/cmov", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/tls/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/tls", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/i686/sse2/cmov/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/i686/sse2/cmov", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/i686/sse2/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/i686/sse2", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/i686/cmov/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/i686/cmov", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/i686/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/i686", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/sse2/cmov/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/sse2/cmov", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/sse2/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/sse2", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/cmov/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program/cmov", 0xbff48d80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat64("/usr/lib/libreoffice/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i386-linux-gnu/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libX11.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i386-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libpng12.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libpng12.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libuno_sal.so.3", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libXext.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i386-linux-gnu/libXext.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i386-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i386-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i386-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i386-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/libreoffice", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/libreoffice/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat64("/usr/lib/libreoffice/program/oosplash", {st_mode=S_IFREG|0755, st_size=34804, ...}) = 0
+lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/libreoffice", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/usr/lib/libreoffice/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+access("/usr/lib/libreoffice/program/bootstraprc", F_OK) = 0
+access("/usr/lib/libreoffice/program/oosplashrc", F_OK) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/bootstraprc", O_RDONLY|O_EXCL|O_LARGEFILE) = 3
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libnsl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libreoffice/program/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+access("/home/sekar", F_OK)             = 0
+mkdir("/home/sekar/.config", 0700)      = -1 EEXIST (File exists)
+stat64("/home/sekar/.config", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+getcwd("/home/sekar", 4096)             = 12
+lstat64("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home/sekar", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home/sekar", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home/sekar/.config", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat64("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home/sekar", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home/sekar/.config", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat64("/home/sekar/.config/libreoffice", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat64("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home/sekar", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/home/sekar/.config", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat64("/home/sekar/.config/libreoffice", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat64("/home/sekar/.config/libreoffice/4", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+access("/tmp", W_OK)                    = 0
+stat64("/proc/version", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+open("/usr/lib/libreoffice/program/intro-en_US.png", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/intro.png", O_RDONLY) = 3
+access("/usr/lib/libreoffice/program/sofficerc", F_OK) = 0
+access("/usr/lib/libreoffice/program/oosplashrc", F_OK) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libreoffice/program/sofficerc", O_RDONLY|O_EXCL|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+lstat64("/etc", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat64("/etc/libreoffice", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/etc/libreoffice/sofficerc", {st_mode=S_IFREG|0644, st_size=207, ...}) = 0
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+lstat64("/etc", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat64("/etc/libreoffice", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/etc/libreoffice/sofficerc", {st_mode=S_IFREG|0644, st_size=207, ...}) = 0
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+lstat64("/etc", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat64("/etc/libreoffice", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/etc/libreoffice/sofficerc", {st_mode=S_IFREG|0644, st_size=207, ...}) = 0
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+lstat64("/etc", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat64("/etc/libreoffice", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/etc/libreoffice/sofficerc", {st_mode=S_IFREG|0644, st_size=207, ...}) = 0
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+lstat64("/etc", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat64("/etc/libreoffice", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat64("/etc/libreoffice/sofficerc", {st_mode=S_IFREG|0644, st_size=207, ...}) = 0
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+open("/etc/libreoffice/sofficerc", O_RDONLY|O_LARGEFILE) = 3
+access("/home/sekar/.Xauthority", R_OK) = 0
+open("/home/sekar/.Xauthority", O_RDONLY) = 4
+open("/usr/lib/libreoffice/program/pagein-common", O_RDONLY) = 4
+open("/usr/lib/libreoffice/program/libmergedlo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libi18nlangtag.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libfwllo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libvclplug_genlo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libvclplug_gtklo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libstocserviceslo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libbootstraplo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libreglo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libstorelo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libreflectionlo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libuno_cppuhelpergcc3.so.3", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libuno_cppu.so.3", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libuno_sal.so.3", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libucbhelper.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libcomphelper.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/types.rdb", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/services/services.rdb", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/types/oovbaapi.rdb", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/pagein-writer", O_RDONLY) = 4
+open("/usr/lib/libreoffice/program/libswlo.so", O_RDONLY) = 5
+open("/usr/lib/libreoffice/program/libswuilo.so", O_RDONLY) = 5
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+
+(soffice:4204): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:4204): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:4204): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:4204): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:4204): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
++++ exited with 0 +++
