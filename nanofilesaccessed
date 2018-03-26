@@ -1,0 +1,115 @@
+execve("/bin/nano", ["nano"], [/* 21 vars */]) = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libncursesw.so.5", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+stat64("/etc/nanorc", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+open("/etc/nanorc", O_RDONLY|O_LARGEFILE) = 3
+open("/usr/share/nano", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 4
+open("/usr/lib/i386-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+stat64("/usr/share/nano/groff.nanorc", {st_mode=S_IFREG|0644, st_size=699, ...}) = 0
+open("/usr/share/nano/groff.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/patch.nanorc", {st_mode=S_IFREG|0644, st_size=457, ...}) = 0
+open("/usr/share/nano/patch.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/po.nanorc", {st_mode=S_IFREG|0644, st_size=839, ...}) = 0
+open("/usr/share/nano/po.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/c.nanorc", {st_mode=S_IFREG|0644, st_size=1665, ...}) = 0
+open("/usr/share/nano/c.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/xml.nanorc", {st_mode=S_IFREG|0644, st_size=484, ...}) = 0
+open("/usr/share/nano/xml.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/elisp.nanorc", {st_mode=S_IFREG|0644, st_size=1071, ...}) = 0
+open("/usr/share/nano/elisp.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/makefile.nanorc", {st_mode=S_IFREG|0644, st_size=287, ...}) = 0
+open("/usr/share/nano/makefile.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/man.nanorc", {st_mode=S_IFREG|0644, st_size=449, ...}) = 0
+open("/usr/share/nano/man.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/asm.nanorc", {st_mode=S_IFREG|0644, st_size=871, ...}) = 0
+open("/usr/share/nano/asm.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/mgp.nanorc", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+open("/usr/share/nano/mgp.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/cmake.nanorc", {st_mode=S_IFREG|0644, st_size=825, ...}) = 0
+open("/usr/share/nano/cmake.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/awk.nanorc", {st_mode=S_IFREG|0644, st_size=1346, ...}) = 0
+open("/usr/share/nano/awk.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/ruby.nanorc", {st_mode=S_IFREG|0644, st_size=1487, ...}) = 0
+open("/usr/share/nano/ruby.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/css.nanorc", {st_mode=S_IFREG|0644, st_size=330, ...}) = 0
+open("/usr/share/nano/css.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/guile.nanorc", {st_mode=S_IFREG|0644, st_size=592, ...}) = 0
+open("/usr/share/nano/guile.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/lua.nanorc", {st_mode=S_IFREG|0644, st_size=2313, ...}) = 0
+open("/usr/share/nano/lua.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/nftables.nanorc", {st_mode=S_IFREG|0644, st_size=761, ...}) = 0
+open("/usr/share/nano/nftables.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/sh.nanorc", {st_mode=S_IFREG|0644, st_size=1177, ...}) = 0
+open("/usr/share/nano/sh.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/ocaml.nanorc", {st_mode=S_IFREG|0644, st_size=831, ...}) = 0
+open("/usr/share/nano/ocaml.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/java.nanorc", {st_mode=S_IFREG|0644, st_size=642, ...}) = 0
+open("/usr/share/nano/java.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/gentoo.nanorc", {st_mode=S_IFREG|0644, st_size=3981, ...}) = 0
+open("/usr/share/nano/gentoo.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/debian.nanorc", {st_mode=S_IFREG|0644, st_size=778, ...}) = 0
+open("/usr/share/nano/debian.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/pov.nanorc", {st_mode=S_IFREG|0644, st_size=670, ...}) = 0
+open("/usr/share/nano/pov.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/default.nanorc", {st_mode=S_IFREG|0644, st_size=250, ...}) = 0
+open("/usr/share/nano/default.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/fortran.nanorc", {st_mode=S_IFREG|0644, st_size=1957, ...}) = 0
+open("/usr/share/nano/fortran.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/perl.nanorc", {st_mode=S_IFREG|0644, st_size=1461, ...}) = 0
+open("/usr/share/nano/perl.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/objc.nanorc", {st_mode=S_IFREG|0644, st_size=1764, ...}) = 0
+open("/usr/share/nano/objc.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/python.nanorc", {st_mode=S_IFREG|0644, st_size=781, ...}) = 0
+open("/usr/share/nano/python.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/php.nanorc", {st_mode=S_IFREG|0644, st_size=710, ...}) = 0
+open("/usr/share/nano/php.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/postgresql.nanorc", {st_mode=S_IFREG|0644, st_size=3090, ...}) = 0
+open("/usr/share/nano/postgresql.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/html.nanorc", {st_mode=S_IFREG|0644, st_size=177, ...}) = 0
+open("/usr/share/nano/html.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/autoconf.nanorc", {st_mode=S_IFREG|0644, st_size=541, ...}) = 0
+open("/usr/share/nano/autoconf.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/javascript.nanorc", {st_mode=S_IFREG|0644, st_size=655, ...}) = 0
+open("/usr/share/nano/javascript.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/spec.nanorc", {st_mode=S_IFREG|0644, st_size=1915, ...}) = 0
+open("/usr/share/nano/spec.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/mutt.nanorc", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/usr/share/nano/mutt.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/tcl.nanorc", {st_mode=S_IFREG|0644, st_size=2146, ...}) = 0
+open("/usr/share/nano/tcl.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/json.nanorc", {st_mode=S_IFREG|0644, st_size=833, ...}) = 0
+open("/usr/share/nano/json.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/tex.nanorc", {st_mode=S_IFREG|0644, st_size=164, ...}) = 0
+open("/usr/share/nano/tex.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/changelog.nanorc", {st_mode=S_IFREG|0644, st_size=699, ...}) = 0
+open("/usr/share/nano/changelog.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/nanorc.nanorc", {st_mode=S_IFREG|0644, st_size=2312, ...}) = 0
+open("/usr/share/nano/nanorc.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/texinfo.nanorc", {st_mode=S_IFREG|0644, st_size=452, ...}) = 0
+open("/usr/share/nano/texinfo.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/usr/share/nano/go.nanorc", {st_mode=S_IFREG|0644, st_size=1407, ...}) = 0
+open("/usr/share/nano/go.nanorc", O_RDONLY|O_LARGEFILE) = 4
+stat64("/home/sekar/.nanorc", 0xbfe3e1ec) = -1 ENOENT (No such file or directory)
+open("/home/sekar/.nanorc", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+stat64("/home/sekar/.nano", 0xbfe3e1ec) = -1 ENOENT (No such file or directory)
+mkdir("/home/sekar/.nano", 0777)        = 0
+stat64("/home/sekar/.nano_history", 0xbfe3e1dc) = -1 ENOENT (No such file or directory)
+open("/home/sekar/.nano/search_history", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+stat64("/home/sekar/.terminfo", 0x84c5138) = -1 ENOENT (No such file or directory)
+stat64("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/etc/terminfo/x/xterm-256color", R_OK) = -1 ENOENT (No such file or directory)
+access("/lib/terminfo/x/xterm-256color", R_OK) = 0
+open("/lib/terminfo/x/xterm-256color", O_RDONLY|O_LARGEFILE) = 3
++++ exited with 0 +++
